@@ -14,7 +14,7 @@ const TaskItem = ({ task, tasks, setTasks, setEditingTask }) => {
     const handleEdit = () => {
       setEditingTask(task);
     };
-  //EN ESTA CARPETA ENCONTRAMOS LA CREACION Y EDICION DE LOS ITEMS EJEMPLO, LA TAREA QEU SE CARGA DESPUES DE PRECIONAR AGREGAR TAREA
+  //EN ESTA CARPETA ENCONTRAMOS LA CREACION Y EDICION DE LOS ITEMS EJEMPLO, LA TAREA QEU SE CARGA DESPUES DE PRECIONAR AGREGAR TARE
     return (
       <li className="flex items-center justify-between p-4 border rounded-lg shadow-md">
         <div className="flex items-center">
